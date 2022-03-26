@@ -1,7 +1,7 @@
 # Istioctl-proxy service
 
 This sample implements a gRPC server that can be deployed on an external control plane's cluster to
-intercept and aggregate (accross `istiod` instances) xDS requests made by `istioctl` CLI commands.
+intercept and aggregate (across `istiod` instances) xDS requests made by `istioctl` CLI commands.
 See [Configuring the istioctl CLI for a remote mesh cluster](https://istio.io/blog/2022/istioctl-proxy/).
 
 To use it:
